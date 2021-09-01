@@ -11,7 +11,25 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		53E277443A8087CEF3477D84 /* libPods-ReactNativeRefresher-ReactNativeRefresherTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B356EAF76DCEF018C08FD4 /* libPods-ReactNativeRefresher-ReactNativeRefresherTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		874B50D63B9BD570E79CFE3E /* libPods-ReactNativeRefresher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B23CCD1573F13ADFBA0940C /* libPods-ReactNativeRefresher.a */; };
+		313F8BCCF2E642C2B3CD857A /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBA6D61F951D447CA63C3A6A /* AntDesign.ttf */; };
+		EB99D4CB68E8462485B134B3 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34964E67F25046B982BA5CBD /* Entypo.ttf */; };
+		9D9837B1BA174241A96C4B56 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBFD3E976B86473CB2D2CCE3 /* EvilIcons.ttf */; };
+		57E9875920BD4DA78A754300 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C90214522D7844C6B8CD4AD0 /* Feather.ttf */; };
+		5A4779DD633E417BB292C96B /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76DFAEEE57134AC38DEAAD32 /* FontAwesome.ttf */; };
+		0E4E1B4658E04316A55CDC58 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60BD25EBCF784D2FB1E76CB7 /* FontAwesome5_Brands.ttf */; };
+		9FC15D1D74634A81BE72B4E9 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AD9E66C515441B5BF829019 /* FontAwesome5_Regular.ttf */; };
+		F242FF0500154E00927A207A /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73DA0F2D95FE4460BC61C975 /* FontAwesome5_Solid.ttf */; };
+		61EEB7139BEC4C41B400D180 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63887DC177A64666904F05AE /* Fontisto.ttf */; };
+		1D75741F892C4D678FBFF5BB /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C5A725104EC41E19CA34E38 /* Foundation.ttf */; };
+		198CD5D31B0143778DFCF3DE /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB2675F52BE04DD99C2FAC1E /* Ionicons.ttf */; };
+		DD082FE0D8E84CDDA0D18C4C /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D273F4F223D49AF93B718AD /* MaterialCommunityIcons.ttf */; };
+		777CF43D1B4341F385C6E854 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 878C795B467D4ED0BAB71009 /* MaterialIcons.ttf */; };
+		E6F1FCEFB09945DB8B1FFC3E /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A921991B250A4D0994738D20 /* Octicons.ttf */; };
+		77A410D72C1C42F19C50357F /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A880AB735FE4941ABB13741 /* SimpleLineIcons.ttf */; };
+		6CF9C7BE83DA43FCBAA8EF8D /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B05DCC83449944B39763441F /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +52,30 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeRefresher/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeRefresher/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeRefresher/main.m; sourceTree = "<group>"; };
+		1B23CCD1573F13ADFBA0940C /* libPods-ReactNativeRefresher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeRefresher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B356EAF76DCEF018C08FD4 /* libPods-ReactNativeRefresher-ReactNativeRefresherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeRefresher-ReactNativeRefresherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D85A39CFF24BA98EC1CB2B /* Pods-ReactNativeRefresher-ReactNativeRefresherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRefresher-ReactNativeRefresherTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeRefresher-ReactNativeRefresherTests/Pods-ReactNativeRefresher-ReactNativeRefresherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62E2B886C0AD889DE2561E64 /* Pods-ReactNativeRefresher-ReactNativeRefresherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRefresher-ReactNativeRefresherTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeRefresher-ReactNativeRefresherTests/Pods-ReactNativeRefresher-ReactNativeRefresherTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeRefresher/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D75693D0ED75EA741DCDD67F /* Pods-ReactNativeRefresher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRefresher.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeRefresher/Pods-ReactNativeRefresher.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F22C74C5294B58613859F3E3 /* Pods-ReactNativeRefresher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRefresher.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeRefresher/Pods-ReactNativeRefresher.release.xcconfig"; sourceTree = "<group>"; };
+		FBA6D61F951D447CA63C3A6A /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		34964E67F25046B982BA5CBD /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CBFD3E976B86473CB2D2CCE3 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C90214522D7844C6B8CD4AD0 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		76DFAEEE57134AC38DEAAD32 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		60BD25EBCF784D2FB1E76CB7 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5AD9E66C515441B5BF829019 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73DA0F2D95FE4460BC61C975 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		63887DC177A64666904F05AE /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C5A725104EC41E19CA34E38 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB2675F52BE04DD99C2FAC1E /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2D273F4F223D49AF93B718AD /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		878C795B467D4ED0BAB71009 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A921991B250A4D0994738D20 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9A880AB735FE4941ABB13741 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B05DCC83449944B39763441F /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E277443A8087CEF3477D84 /* libPods-ReactNativeRefresher-ReactNativeRefresherTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				874B50D63B9BD570E79CFE3E /* libPods-ReactNativeRefresher.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				1B23CCD1573F13ADFBA0940C /* libPods-ReactNativeRefresher.a */,
+				24B356EAF76DCEF018C08FD4 /* libPods-ReactNativeRefresher-ReactNativeRefresherTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,6 +153,8 @@
 				00E356EF1AD99517003FC87E /* ReactNativeRefresherTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				9718B53C241C453584C29158 /* Resources */,
+				DBB9AA5782AF0BFC1DED4EA6 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -124,6 +170,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9718B53C241C453584C29158 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBA6D61F951D447CA63C3A6A /* AntDesign.ttf */,
+				34964E67F25046B982BA5CBD /* Entypo.ttf */,
+				CBFD3E976B86473CB2D2CCE3 /* EvilIcons.ttf */,
+				C90214522D7844C6B8CD4AD0 /* Feather.ttf */,
+				76DFAEEE57134AC38DEAAD32 /* FontAwesome.ttf */,
+				60BD25EBCF784D2FB1E76CB7 /* FontAwesome5_Brands.ttf */,
+				5AD9E66C515441B5BF829019 /* FontAwesome5_Regular.ttf */,
+				73DA0F2D95FE4460BC61C975 /* FontAwesome5_Solid.ttf */,
+				63887DC177A64666904F05AE /* Fontisto.ttf */,
+				0C5A725104EC41E19CA34E38 /* Foundation.ttf */,
+				DB2675F52BE04DD99C2FAC1E /* Ionicons.ttf */,
+				2D273F4F223D49AF93B718AD /* MaterialCommunityIcons.ttf */,
+				878C795B467D4ED0BAB71009 /* MaterialIcons.ttf */,
+				A921991B250A4D0994738D20 /* Octicons.ttf */,
+				9A880AB735FE4941ABB13741 /* SimpleLineIcons.ttf */,
+				B05DCC83449944B39763441F /* Zocial.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+		DBB9AA5782AF0BFC1DED4EA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D75693D0ED75EA741DCDD67F /* Pods-ReactNativeRefresher.debug.xcconfig */,
+				F22C74C5294B58613859F3E3 /* Pods-ReactNativeRefresher.release.xcconfig */,
+				45D85A39CFF24BA98EC1CB2B /* Pods-ReactNativeRefresher-ReactNativeRefresherTests.debug.xcconfig */,
+				62E2B886C0AD889DE2561E64 /* Pods-ReactNativeRefresher-ReactNativeRefresherTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeRefresherTests" */;
 			buildPhases = (
+				24E680161048BB143D6DD86B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				2FA2A91051DB5A7456D565CF /* [CP] Embed Pods Frameworks */,
+				0DDCEDF4554C12BB4541FDEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,11 +234,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeRefresher" */;
 			buildPhases = (
+				B0591CCC4CFF45375F7AAF6E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F73809BAE0DC7F2EB8BBAD24 /* [CP] Embed Pods Frameworks */,
+				15353B5157F68969DCBB7595 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +302,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				313F8BCCF2E642C2B3CD857A /* AntDesign.ttf in Resources */,
+				EB99D4CB68E8462485B134B3 /* Entypo.ttf in Resources */,
+				9D9837B1BA174241A96C4B56 /* EvilIcons.ttf in Resources */,
+				57E9875920BD4DA78A754300 /* Feather.ttf in Resources */,
+				5A4779DD633E417BB292C96B /* FontAwesome.ttf in Resources */,
+				0E4E1B4658E04316A55CDC58 /* FontAwesome5_Brands.ttf in Resources */,
+				9FC15D1D74634A81BE72B4E9 /* FontAwesome5_Regular.ttf in Resources */,
+				F242FF0500154E00927A207A /* FontAwesome5_Solid.ttf in Resources */,
+				61EEB7139BEC4C41B400D180 /* Fontisto.ttf in Resources */,
+				1D75741F892C4D678FBFF5BB /* Foundation.ttf in Resources */,
+				198CD5D31B0143778DFCF3DE /* Ionicons.ttf in Resources */,
+				DD082FE0D8E84CDDA0D18C4C /* MaterialCommunityIcons.ttf in Resources */,
+				777CF43D1B4341F385C6E854 /* MaterialIcons.ttf in Resources */,
+				E6F1FCEFB09945DB8B1FFC3E /* Octicons.ttf in Resources */,
+				77A410D72C1C42F19C50357F /* SimpleLineIcons.ttf in Resources */,
+				6CF9C7BE83DA43FCBAA8EF8D /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +337,118 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		0DDCEDF4554C12BB4541FDEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRefresher-ReactNativeRefresherTests/Pods-ReactNativeRefresher-ReactNativeRefresherTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRefresher-ReactNativeRefresherTests/Pods-ReactNativeRefresher-ReactNativeRefresherTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRefresher-ReactNativeRefresherTests/Pods-ReactNativeRefresher-ReactNativeRefresherTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15353B5157F68969DCBB7595 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRefresher/Pods-ReactNativeRefresher-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRefresher/Pods-ReactNativeRefresher-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRefresher/Pods-ReactNativeRefresher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24E680161048BB143D6DD86B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeRefresher-ReactNativeRefresherTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FA2A91051DB5A7456D565CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRefresher-ReactNativeRefresherTests/Pods-ReactNativeRefresher-ReactNativeRefresherTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRefresher-ReactNativeRefresherTests/Pods-ReactNativeRefresher-ReactNativeRefresherTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRefresher-ReactNativeRefresherTests/Pods-ReactNativeRefresher-ReactNativeRefresherTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0591CCC4CFF45375F7AAF6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeRefresher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F73809BAE0DC7F2EB8BBAD24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRefresher/Pods-ReactNativeRefresher-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRefresher/Pods-ReactNativeRefresher-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeRefresher/Pods-ReactNativeRefresher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -286,6 +502,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D85A39CFF24BA98EC1CB2B /* Pods-ReactNativeRefresher-ReactNativeRefresherTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -312,6 +529,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E2B886C0AD889DE2561E64 /* Pods-ReactNativeRefresher-ReactNativeRefresherTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -335,6 +553,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75693D0ED75EA741DCDD67F /* Pods-ReactNativeRefresher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -360,6 +579,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22C74C5294B58613859F3E3 /* Pods-ReactNativeRefresher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -414,6 +634,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -478,6 +699,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
