@@ -1,30 +1,60 @@
 import React from 'react';
-import {View, Text, Image, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
+import {Provider} from 'react-redux';
+import HomeScreen from './screens/HomeScreen';
+import {store} from './store';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
+
+// import 'react-native-gesture-handler';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import MapScreen from './screens/MapScreen';
+import EatsScreen from './screens/EatsScreen';
+
+// Setup redux
 
 const App = () => {
+  const Stack = createNativeStackNavigator();
+
+  console.log('working');
   return (
-    // eslint-disable-next-line react-native/no-inline-styles
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello world!</Text>
-      <Image source={{uri: 'https://randomuser.me/api/portraits/men/1.jpg'}} style={styles.img} />
-    </View>
+    <Provider store={store}>
+      <NavigationContainer>
+        <SafeAreaProvider>
+          <Stack.Navigator>
+            <Stack.Screen
+              name="HomeScreen"
+              component={HomeScreen}
+              options={{
+                headerShown: false,
+              }}
+            />
+            <Stack.Screen
+              name="MapScreen"
+              component={MapScreen}
+              options={{
+                headerShown: false,
+              }}
+            />
+            <Stack.Screen
+              name="EatsScreen"
+              component={EatsScreen}
+              options={{
+                headerShown: false,
+              }}
+            />
+            {/* <HomeScreen /> */}
+          </Stack.Navigator>
+        </SafeAreaProvider>
+      </NavigationContainer>
+    </Provider>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
+    // paddingTop: 60,
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
   },
-  text: {
-    color: 'green',
-    fontSize: 30,
-  },
-  img: {
-    width: 100,
-    height: 100,
-    borderRadius: 100/2
-  }
 });
 export default App;
